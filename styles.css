@@ -1,0 +1,82 @@
+body {
+    /* Sets the font for the entire body to Arial with a fallback to sans-serif */
+    font-family: 'Arial', sans-serif;
+    /* Defines line spacing for better readability */
+    line-height: 1.6;
+    /* Sets the default text color to dark gray */
+    color: #333;
+    /* Adds margin around the body for spacing */
+    margin: 40px;
+    /* Sets the background color to light gray */
+    background-color: #f4f4f4;
+}
+
+h1 {
+    /* Uses Georgia font with a serif fallback for the main heading */
+    font-family: 'Georgia', serif;
+    /* Sets a large font size for emphasis */
+    font-size: 48px;
+    /* Makes the text bold */
+    font-weight: bold;
+    /* Changes the text color to a dark blue shade */
+    color: #2c3e50;
+    /* Transforms text to uppercase for styling */
+    text-transform: uppercase;
+    /* Adds spacing between letters for effect */
+    letter-spacing: 2px;
+}
+
+h2 {
+    /* Uses Verdana font with a sans-serif fallback */
+    font-family: 'Verdana', sans-serif;
+    /* Sets a slightly smaller font size than h1 */
+    font-size: 36px;
+    /* Makes the text semi-bold */
+    font-weight: 600;
+    /* Sets the text color to teal */
+    color: #16a085;
+    /* Centers the heading text */
+    text-align: center;
+}
+
+p {
+    /* Defines font size for paragraph text */
+    font-size: 18px;
+    /* Increases line height for readability */
+    line-height: 1.8;
+    /* Justifies text for a clean appearance */
+    text-align: justify;
+    /* Adds spacing below each paragraph */
+    margin-bottom: 20px;
+}
+
+blockquote {
+    /* Uses a monospaced font for a distinct style */
+    font-family: 'Courier New', monospace;
+    /* Sets font size slightly larger for emphasis */
+    font-size: 20px;
+    /* Italicizes the text for traditional quote styling */
+    font-style: italic;
+    /* Changes the text color to purple */
+    color: #8e44ad;
+    /* Adds a left border for visual distinction */
+    border-left: 5px solid #8e44ad;
+    /* Adds padding to separate text from the border */
+    padding-left: 15px;
+    /* Adds vertical spacing around the blockquote */
+    margin: 20px 0;
+}
+
+.highlight {
+    /* Makes the text bold to draw attention */
+    font-weight: bold;
+    /* Changes the text color to red for emphasis */
+    color: #e74c3c;
+}
+
+.small-text {
+    /* Sets a smaller font size for secondary text */
+    font-size: 14px;
+    /* Uses a muted gray color for subtle text */
+    color: #7f8c8d;
+}
